@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoderByte.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/LargestFourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/VowelCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/gcf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
+      <change afterPath="$PROJECT_DIR$/src/Easy/SwapCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -53,14 +46,16 @@
     "Application.gcf.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/srika/OneDrive/Desktop/Microservice/QuestionService/CoderByte/src/Main.java"
+    "last_opened_file_path": "C:/Users/srika/IdeaProjects/Coderbyte",
+    "onboarding.tips.debug.path": "C:/Users/srika/OneDrive/Desktop/Microservice/QuestionService/CoderByte/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WordCount">
-    <configuration name="LargestFourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.LargestFourSum" />
+  <component name="RunManager" selected="Application.SwapCase">
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Palindrome" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Palindrome" />
+    <configuration name="SwapCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.SwapCase" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwapCase" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.VowelCounter" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.gcf" />
-        <item itemvalue="Application.LargestFourSum" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +146,17 @@
       <updated>1718556882970</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
