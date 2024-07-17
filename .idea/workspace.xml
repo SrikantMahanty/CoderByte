@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
-      <change afterPath="$PROJECT_DIR$/src/Easy/LetterChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Minmode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/ProductDig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/SumMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/OtherProd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/OverLapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Superincreasing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,8 @@
     "Application.Minmode.executor": "Run",
     "Application.NumberSearch.executor": "Run",
     "Application.OneDecrement.executor": "Run",
+    "Application.OtherProd.executor": "Run",
+    "Application.OverLapp.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PowerOfTwo.executor": "Run",
     "Application.PowerSet.executor": "Run",
@@ -85,6 +85,7 @@
     "Application.SnakeCase.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SumMultiplier.executor": "Run",
+    "Application.Superincreasing.executor": "Run",
     "Application.SwapCase.executor": "Run",
     "Application.SwapPalindrome.executor": "Run",
     "Application.ThirdGreatest.executor": "Run",
@@ -96,6 +97,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/srika/IdeaProjects/Coderbyte",
     "onboarding.tips.debug.path": "C:/Users/srika/OneDrive/Desktop/Microservice/QuestionService/CoderByte/src/Main.java",
@@ -105,9 +107,9 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Minmode">
-    <configuration name="LetterChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.LetterChange" />
+  <component name="RunManager" selected="Application.OtherProd">
+    <configuration name="Minmode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Minmode" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +121,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Minmode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Minmode" />
+    <configuration name="OtherProd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.OtherProd" />
+      <module name="CoderByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverLapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.OverLapp" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -145,21 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.ProductDig" />
-      <module name="CoderByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumMultiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.SumMultiplier" />
+    <configuration name="Superincreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Superincreasing" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OtherProd" />
+        <item itemvalue="Application.Superincreasing" />
+        <item itemvalue="Application.OverLapp" />
         <item itemvalue="Application.Minmode" />
         <item itemvalue="Application.PowerSet" />
-        <item itemvalue="Application.LetterChange" />
-        <item itemvalue="Application.ProductDig" />
-        <item itemvalue="Application.SumMultiplier" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721221693004</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721227929990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721227929990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,20 +309,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Easy/ProductDig.java</url>
-          <line>19</line>
-          <properties class="Easy.ProductDig" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Easy/SumMultiplier.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
