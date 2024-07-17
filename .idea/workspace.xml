@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
-      <change afterPath="$PROJECT_DIR$/src/Easy/AdditivePersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Bit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/ChangeSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/HammingDist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/LongestWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/ThirdGreatest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/LetterChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Minmode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/PowerSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/ProductDig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/SumMultiplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +66,25 @@
     "Application.FirstReverse.executor": "Run",
     "Application.HammingDist.executor": "Run",
     "Application.LargestFourSum.executor": "Run",
+    "Application.LetterChange.executor": "Run",
     "Application.LetterCount1.executor": "Run",
     "Application.LongestWord.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeString.executor": "Run",
+    "Application.Minmode.executor": "Run",
     "Application.NumberSearch.executor": "Run",
     "Application.OneDecrement.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PowerOfTwo.executor": "Run",
+    "Application.PowerSet.executor": "Run",
+    "Application.ProductDig.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RemoveBrackets.executor": "Run",
     "Application.SimpleEven.executor": "Run",
     "Application.SimpleSymbols.executor": "Run",
     "Application.SnakeCase.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SumMultiplier.executor": "Run",
     "Application.SwapCase.executor": "Run",
     "Application.SwapPalindrome.executor": "Run",
     "Application.ThirdGreatest.executor": "Run",
@@ -104,9 +105,9 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HammingDist">
-    <configuration name="Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Bit" />
+  <component name="RunManager" selected="Application.Minmode">
+    <configuration name="LetterChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.LetterChange" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.ChangeSeq" />
+    <configuration name="Minmode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Minmode" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Factorial" />
+    <configuration name="PowerSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.PowerSet" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.HammingDist" />
+    <configuration name="ProductDig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.ProductDig" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Rectangle" />
+    <configuration name="SumMultiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.SumMultiplier" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HammingDist" />
-        <item itemvalue="Application.Bit" />
-        <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.ChangeSeq" />
-        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Minmode" />
+        <item itemvalue="Application.PowerSet" />
+        <item itemvalue="Application.LetterChange" />
+        <item itemvalue="Application.ProductDig" />
+        <item itemvalue="Application.SumMultiplier" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721211651162</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721221585103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721221585103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721221693004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721221693004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +299,20 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Easy/ProductDig.java</url>
+          <line>19</line>
+          <properties class="Easy.ProductDig" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/SumMultiplier.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
