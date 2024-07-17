@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
-      <change afterPath="$PROJECT_DIR$/src/Easy/DistnictChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/FirstReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/MergeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/OneDecrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/SimpleEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/SnakeCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/AdditivePersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/ChangeSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/HammingDist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/LongestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/ThirdGreatest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,22 +61,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Additivepersistence.executor": "Run",
+    "Application.Bit.executor": "Run",
+    "Application.ChangeSeq.executor": "Run",
     "Application.DistnictChar.executor": "Run",
     "Application.DuplicateCharacter.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FirstReverse.executor": "Run",
+    "Application.HammingDist.executor": "Run",
     "Application.LargestFourSum.executor": "Run",
     "Application.LetterCount1.executor": "Run",
+    "Application.LongestWord.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeString.executor": "Run",
     "Application.NumberSearch.executor": "Run",
     "Application.OneDecrement.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.PowerOfTwo.executor": "Run",
+    "Application.Rectangle.executor": "Run",
     "Application.RemoveBrackets.executor": "Run",
     "Application.SimpleEven.executor": "Run",
     "Application.SimpleSymbols.executor": "Run",
+    "Application.SnakeCase.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SwapCase.executor": "Run",
     "Application.SwapPalindrome.executor": "Run",
+    "Application.ThirdGreatest.executor": "Run",
     "Application.VowelCounter.executor": "Run",
     "Application.WordCount.executor": "Run",
     "Application.gcf.executor": "Run",
@@ -91,9 +104,9 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SnakeCase">
-    <configuration name="DistnictChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.DistnictChar" />
+  <component name="RunManager" selected="Application.HammingDist">
+    <configuration name="Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Bit" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.MergeString" />
+    <configuration name="ChangeSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.ChangeSeq" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneDecrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.OneDecrement" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Factorial" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.SimpleEven" />
+    <configuration name="HammingDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.HammingDist" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.SnakeCase" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Rectangle" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SnakeCase" />
-        <item itemvalue="Application.DistnictChar" />
-        <item itemvalue="Application.OneDecrement" />
-        <item itemvalue="Application.SimpleEven" />
-        <item itemvalue="Application.MergeString" />
+        <item itemvalue="Application.HammingDist" />
+        <item itemvalue="Application.Bit" />
+        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.ChangeSeq" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721186128658</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721211651162</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721211651162</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,5 +270,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial" />
     <option name="LAST_COMMIT_MESSAGE" value="intial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Easy/ThirdGreatest.java</url>
+          <line>27</line>
+          <properties class="Easy.ThirdGreatest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
