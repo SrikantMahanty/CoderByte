@@ -1,4 +1,5 @@
 package  Medium;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class StringScamble {
@@ -10,37 +11,27 @@ public class StringScamble {
      * @param str2 input string 2
      * @return "true" if str1 can be rearranged to match str2, otherwise "false"
      */
-    private static String stringScramble(String str1, String str2) {
-        HashMap<String, Integer> freq = new HashMap<>();
-        String[] arr1 = str1.replaceAll("([^" + str2 + "])", "").split("");
-        String[] arr2 = str2.split("");
-        for (String letter : arr1) {
-            if (freq.containsKey(letter)) {
-                freq.put(letter, freq.get(letter) + 1);
-            } else {
-                freq.put(letter, 1);
-            }
-        }
-        for (String letter : arr2) {
-            if (freq.containsKey(letter) && freq.get(letter) > 0) {
-                freq.put(letter, freq.get(letter) - 1);
-            } else {
-                return "false";
-            }
-        }
-        return "true";
-    }
 
-    /**
-     * Entry point of the program.
-     *
-     * @param args command line arguments
-     */
+        public static boolean StringScramble(String str1, String str2) {
+            char[] arr1 = str1.toCharArray();
+            char[] arr2 = str2.toCharArray();
+
+            Arrays.sort(arr1);
+            Arrays.sort(arr2);
+
+            int i = 0, j = 0;
+            while (i < arr1.length && j < arr2.length) {
+                if (arr1[i] == arr2[j]) {
+                    j++;
+                }
+                i++;
+            }
+            return j == arr2.length;
+        }
+
     public static void main(String[] args) {
-        String result1 = stringScramble("win33er", "winner");
-        System.out.println(result1); // Output: true
-
-        String result2 = stringScramble("rkqodlw", "world");
-        System.out.println(result2); // Output: true
+        System.out.println(StringScramble("rkqodlw", "world"));  // true
+        System.out.println(StringScramble("hello", "world"));    // false
     }
+
 }
