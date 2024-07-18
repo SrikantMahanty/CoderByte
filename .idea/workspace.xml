@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
-      <change afterPath="$PROJECT_DIR$/src/Medium/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/CheckPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/PrimeMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/RunLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/StringScamble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/ThreeFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/TripleDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/EvenPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/NumberEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/Simplemode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +62,7 @@
     "Application.CheckPrime.executor": "Run",
     "Application.DistnictChar.executor": "Run",
     "Application.DuplicateCharacter.executor": "Run",
+    "Application.EvenPair.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FirstReverse.executor": "Run",
     "Application.HammingDist.executor": "Run",
@@ -76,6 +73,7 @@
     "Application.Main.executor": "Run",
     "Application.MergeString.executor": "Run",
     "Application.Minmode.executor": "Run",
+    "Application.NumberEncoding.executor": "Run",
     "Application.NumberSearch.executor": "Run",
     "Application.OneDecrement.executor": "Run",
     "Application.OtherProd.executor": "Run",
@@ -83,12 +81,14 @@
     "Application.Palindrome.executor": "Run",
     "Application.PowerOfTwo.executor": "Run",
     "Application.PowerSet.executor": "Run",
+    "Application.PrimeMover.executor": "Run",
     "Application.ProductDig.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RemoveBrackets.executor": "Run",
     "Application.RunLength.executor": "Run",
     "Application.SimpleEven.executor": "Run",
     "Application.SimpleSymbols.executor": "Run",
+    "Application.Simplemode.executor": "Run",
     "Application.SnakeCase.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.StringScamble.executor": "Run",
@@ -117,9 +117,35 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrimeMover">
-    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.CheckPrime" />
+  <component name="RunManager" selected="Application.ConsecutiveExample">
+    <configuration name="ConsecutiveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium.ConsecutiveExample" />
+      <module name="CoderByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium.EvenPair" />
+      <module name="CoderByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium.NumberEncoding" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -144,34 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.RunLength" />
-      <module name="CoderByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringScamble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.StringScamble" />
-      <module name="CoderByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripleDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.TripleDouble" />
+    <configuration name="Simplemode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium.Simplemode" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveExample" />
+        <item itemvalue="Application.NumberEncoding" />
+        <item itemvalue="Application.Simplemode" />
+        <item itemvalue="Application.EvenPair" />
         <item itemvalue="Application.PrimeMover" />
-        <item itemvalue="Application.TripleDouble" />
-        <item itemvalue="Application.StringScamble" />
-        <item itemvalue="Application.RunLength" />
-        <item itemvalue="Application.CheckPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721234978557</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721275269978</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721275269978</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
