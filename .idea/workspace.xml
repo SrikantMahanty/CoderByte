@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d148f1-e7de-4296-b1e3-f58df3c9472a" name="Changes" comment="intial">
-      <change afterPath="$PROJECT_DIR$/src/Easy/BinaryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/BracketMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/ArithGeo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/BitWiseTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/DivisionString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/MultipleBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/Swap2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/StringScamble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/StringScamble.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +59,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Additivepersistence.executor": "Run",
+    "Application.ArithGeo.executor": "Run",
     "Application.BinaryConverter.executor": "Run",
     "Application.Bit.executor": "Run",
+    "Application.BitWiseTwo.executor": "Run",
     "Application.BracketMatcher.executor": "Run",
+    "Application.CaesarCipher.executor": "Run",
     "Application.ChangeSeq.executor": "Run",
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckPrime.executor": "Run",
@@ -77,6 +82,7 @@
     "Application.Main.executor": "Run",
     "Application.MergeString.executor": "Run",
     "Application.Minmode.executor": "Run",
+    "Application.MultipleBrackets.executor": "Run",
     "Application.NumberEncoding.executor": "Run",
     "Application.NumberSearch.executor": "Run",
     "Application.OneDecrement.executor": "Run",
@@ -98,6 +104,7 @@
     "Application.StringScamble.executor": "Run",
     "Application.SumMultiplier.executor": "Run",
     "Application.Superincreasing.executor": "Run",
+    "Application.Swap2.executor": "Run",
     "Application.SwapCase.executor": "Run",
     "Application.SwapPalindrome.executor": "Run",
     "Application.ThirdGreatest.executor": "Run",
@@ -121,9 +128,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="BinaryConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.BinaryConverter" />
+  <component name="RunManager" selected="Application.DivisionString">
+    <configuration name="ArithGeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.ArithGeo" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.BracketMatcher" />
+    <configuration name="BitWiseTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.BitWiseTwo" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +155,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsecutiveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.ConsecutiveExample" />
+    <configuration name="DivisionString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.DivisionString" />
+      <module name="CoderByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultipleBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium.MultipleBrackets" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
@@ -161,25 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.Fibonacci" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Palindrome" />
       <module name="CoderByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringScamble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Medium.StringScamble" />
-      <module name="CoderByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
+          <option name="PATTERN" value="Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.StringScamble" />
-        <item itemvalue="Application.BinaryConverter" />
-        <item itemvalue="Application.BracketMatcher" />
-        <item itemvalue="Application.ConsecutiveExample" />
+        <item itemvalue="Application.DivisionString" />
+        <item itemvalue="Application.BitWiseTwo" />
+        <item itemvalue="Application.ArithGeo" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.MultipleBrackets" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721275269978</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="intial">
+      <option name="closed" value="true" />
+      <created>1721298110257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298110257</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
